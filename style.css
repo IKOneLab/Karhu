@@ -1,0 +1,361 @@
+@media (min-width: 800px) {
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    header {
+        width: 80%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .logo {
+        width: 30%;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+    }
+    .icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 48px;
+        margin-right: 10px;
+        color: rgb(19, 104, 100);
+    }
+    h1 {
+        color: lightseagreen;
+    }
+    .menu {
+        width: 69%;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+    }
+    .item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 17%;
+        height: 24px;
+        margin-left: 10px;
+        font-size: 14px;
+        transition: 1s;
+        border-style: none;
+        cursor: pointer;
+        padding: 5px 2px;
+        border-radius: 5px;
+        border: 1px solid lightseagreen;
+    }
+    .item:hover {
+        background-color: lightseagreen;
+        color: white;
+        font-weight: bold;
+        transition: 1s;
+    }
+    .service {
+        background-image: url(picture/service.jpg);
+        background-size: cover;
+        height: 300px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .card {
+        border: 1px solid gray;
+        width: 15%;
+        background-color: white;
+        opacity: 70%;
+        transition: 1s;
+    }
+    .card:hover {
+        opacity: 100%;
+        transition: 1s;
+
+    }
+    .card img {
+        width: 100%;
+    }
+    h2 {
+        margin: 5px;
+    }
+    .card p {
+        margin: 5px;
+    }
+    .card button {
+        margin: 5px;
+        width: 80%
+    }
+
+    .interest {
+        width: 80%;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        border: 2px solid lightseagreen;
+        border-radius: 10px;
+        padding: 10px;
+    }
+    h3 {
+        font-size: 28px;
+        color: lightseagreen;
+        margin: 10px;
+    }
+    .emblem {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .emblem p {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 36px;
+        border: 1px solid lightseagreen;
+        padding: 10px;
+        margin: 5px;
+        color: lightseagreen;
+        border-radius: 10px;
+    }
+    .emblem p:hover {
+        border-radius: 50%;
+        color: white;
+        background-color: lightseagreen;
+    }
+    .contacts {
+        width: 80%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .form {
+        width: 30%;
+    }
+    fieldset {
+        border: 1px solid lightseagreen;
+        border-radius: 5px;
+    }
+    legend {
+        width: 40%;
+        background-color: lightseagreen;
+        border-radius: 5px;
+        padding: 5px;
+        color: white;
+    }
+    form p {
+        margin: 0px;
+    }
+    input, textarea {
+        width: 95%;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        outline: none;
+        border-style: none;
+        border-bottom: 1px solid lightgrey;
+        padding: 5px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 13px;
+    }
+    input[type="submit"] {
+        width: 40%;
+        background-color: lightseagreen;
+        border-radius: 5px;
+        padding: 5px;
+        color: white;
+        cursor: pointer;
+    }
+    input[type="submit"]:hover {
+        border: 1px solid lightseagreen;
+        background-color: white;
+        color: lightseagreen;
+    }
+    .map {
+        width: 68%;
+    }
+    iframe {
+        width: 100%;
+        border: 1px solid lightseagreen;
+        border-radius: 5px;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .logo {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 48px;
+        margin-right: 10px;
+        color: rgb(19, 104, 100);
+    }
+    h1 {
+        color: lightseagreen;
+    }
+    .menu {
+        width: 100%;
+    }
+    .item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin-bottom: 5px;
+        height: 24px;
+        font-size: 14px;
+        transition: 1s;
+        border-style: none;
+        cursor: pointer;
+        padding: 5px 2px;
+        border-radius: 5px;
+        border: 1px solid lightseagreen;
+    }
+    .item:hover {
+        background-color: lightseagreen;
+        color: white;
+        font-weight: bold;
+        transition: 1s;
+    }
+    .service {
+        background-image: url(picture/service.jpg);
+        background-size: cover;
+        padding: 15px;
+    }
+    .card {
+        border: 1px solid gray;
+        width: 100%;
+        background-color: white;
+        opacity: 70%;
+        transition: 1s;
+        margin-bottom: 15px;
+        border-radius: 10px;
+    }
+    .card:hover {
+        opacity: 100%;
+        transition: 1s;
+    
+    }
+    .card img {
+        width: 100%;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    h2 {
+        margin: 5px;
+    }
+    .card p {
+        margin: 5px;
+    }
+    .card button {
+        margin: 5px;
+        width: 80%
+    }
+    
+    .interest {
+        width: 80%;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        border: 2px solid lightseagreen;
+        border-radius: 10px;
+        padding: 10px;
+    }
+    h3 {
+        font-size: 16px;
+        color: lightseagreen;
+        margin: 10px;
+    }
+    .emblem {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .emblem p {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 16px;
+        border: 1px solid lightseagreen;
+        padding: 10px;
+        margin: 5px;
+        color: lightseagreen;
+        border-radius: 10px;
+    }
+    .emblem p:hover {
+        border-radius: 50%;
+        color: white;
+        background-color: lightseagreen;
+    }
+     .contacts {
+        width: 95%;
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .form {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    fieldset {
+        border: 1px solid lightseagreen;
+        border-radius: 5px;
+    }
+    legend {
+        width: 40%;
+        background-color: lightseagreen;
+        border-radius: 5px;
+        padding: 5px;
+        color: white;
+    }
+    form p {
+        margin: 0px;
+    }
+    input, textarea {
+        width: 95%;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        outline: none;
+        border-style: none;
+        border-bottom: 1px solid lightgrey;
+        padding: 5px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 13px;
+    }
+    input[type="submit"] {
+        width: 40%;
+        background-color: lightseagreen;
+        border-radius: 5px;
+        padding: 5px;
+        color: white;
+        cursor: pointer;
+    }
+    input[type="submit"]:hover {
+        border: 1px solid lightseagreen;
+        background-color: white;
+        color: lightseagreen;
+    }
+    .map {
+        width: 100%;
+    }
+    iframe {
+        width: 100%;
+        border: 1px solid lightseagreen;
+        border-radius: 5px;
+    }
+}
